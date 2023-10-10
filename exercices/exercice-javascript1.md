@@ -61,6 +61,7 @@ a) > ("bonne réponse")
 b) <
 c) ==
 d) ===
+
 Quelle méthode JavaScript est utilisée pour convertir une chaîne de caractères en minuscules ?
 
 a) toLowerCase()
@@ -75,7 +76,7 @@ c) randomNumber()
 d) Math.randomNumber()
 Comment accédez-vous au premier élément d'un tableau appelé myArray en JavaScript ?
 
-a) myArray[0]
+a) myArray[0] ("bonne réponse")
 b) myArray.first()
 c) myArray[1]
 d) myArray.first
