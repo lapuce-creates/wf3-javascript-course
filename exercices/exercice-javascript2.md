@@ -69,6 +69,16 @@ alert("Bonjour " + prenom + " !");
 
 Créez une fonction qui calcule l'aire d'un rectangle en prenant sa largeur et sa hauteur en entrée. Affichez le résultat dans la console.
 
+//ma reponse
+// aire d'un rectangle c'est longueur * largeur
+//var longueur , var largeur, multiplier les 2var
+
+function multiply(longueur,largeur){
+    return longueur * largeur;
+}
+multiply(10,5);
+
+
 Écrivez un programme JavaScript qui génère un nombre aléatoire entre 1 et 10, puis demande à l'utilisateur de deviner ce nombre. Donnez des indices pour aider l'utilisateur à deviner.
 
 Créez une fonction qui prend une chaîne de caractères en entrée et retourne sa longueur. Affichez la longueur d'une chaîne donnée dans la console.

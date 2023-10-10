@@ -12,7 +12,7 @@ Exercices
 
     function add(a,b){
         return = a+b;
-    }
+    } 
 
 Créez une fonction multiply qui prend deux paramètres (x et y) et renvoie leur produit par additions successives.
 
