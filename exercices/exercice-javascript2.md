@@ -10,7 +10,14 @@
 
 
 Créez une fonction qui prend deux nombres en entrée et les additionne. Appelez cette fonction et affichez le résultat dans la console.
+// ma reponse
 
+    function  add (a,b){
+        let resultat = a + b;
+        console.log (resultat)
+    }
+
+    
 Écrivez un programme JavaScript qui vérifie si un nombre est pair ou impair et affiche le résultat dans la console.
 
 Créez un tableau contenant trois noms, puis bouclez sur le tableau pour afficher chaque nom dans la console.
