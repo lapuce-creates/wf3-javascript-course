@@ -15,6 +15,7 @@ Créez une fonction multiply qui prend deux paramètres (x et y) et renvoie leur
         return
     }
 Écrivez une fonction isEven qui prend un nombre en paramètre et renvoie true s'il est pair et false s'il est impair.
+
     function isEven (number){
         let remainder (var%2);
         if remainder = 0;
@@ -23,24 +24,40 @@ Créez une fonction multiply qui prend deux paramètres (x et y) et renvoie leur
     }
     
 Écrivez une fonction reverseString qui prend une chaîne de caractères en entrée et renvoie cette chaîne inversée.
+
+
 Créez une fonction findMax qui prend un tableau de nombres en entrée et renvoie le nombre le plus élevé.
+
+
 Écrivez une fonction capitalizeWords qui prend une phrase en paramètre et renvoie la même phrase avec chaque mot en majuscules.
+
+
 Écrivez une fonction filterEvenNumbers qui prend un tableau de nombres en entrée et renvoie un nouveau tableau contenant uniquement les nombres pairs.
+
+
 Créez une fonction calculateFactorial qui prend un nombre entier positif en paramètre et renvoie sa factorielle.
+
+
 Écrivez une fonction findLongestWord qui prend un tableau de mots en entrée et renvoie le mot le plus long.
+
+
     function findLongestWord(arr){
         let arr = ["string", "string", "string"];
         return arr.length
     }
+
+
 Écrivez une fonction isPalindrome qui prend une chaîne de caractères en entrée et renvoie true si la chaîne est un palindrome (se lit de la même manière de gauche à droite et de droite à gauche), sinon renvoie false.
+
+
 Questions à choix multiples (QCM)
 
 Quelle est la sortie de console.log(typeof "123") ?
 
-a) "string" ("bonne réponse")
-b) "number"
-c) "undefined"
-d) "boolean"
+a) "string" ("bonne réponse")\n
+b) "number" \n
+c) "undefined"\n
+d) "boolean"\n
 
 Quelle méthode JavaScript est utilisée pour supprimer le dernier élément d'un tableau ?
 
