@@ -7,7 +7,9 @@
     var string3 = "!";
     mystring = string1 + string2 + string3;
     console.log(mystring);
+
  // correction
+ 
     var salutation = "Bonjour, monde !";
     console.log(salutation);
 
@@ -24,17 +26,22 @@ Créez une fonction qui prend deux nombres en entrée et les additionne. Appelez
 
 //ma reponse
 
-    function isEven(number) {
-        if (number % 2 === 0) {
-            answer= "It is even";
-        } 
-        else (number % 2 === 1) {
-            answer = "It is odd";
-        }
-        console.log(answer);
+    function isEven(number) { 
+        return number % 2 === 0; 
     }
 
+
 Créez un tableau contenant trois noms, puis bouclez sur le tableau pour afficher chaque nom dans la console.
+
+//ma reponse
+
+    var array = ["Leah", "Sarah", "Slerah"];
+for ( var i = 0; i < array.length; i++) {
+    console.log(array[i]);
+}
+
+
+
 
 Écrivez un programme JavaScript qui demande à l'utilisateur son prénom, puis affiche "Bonjour, [prénom] !" dans une boîte de dialogue.
 
