@@ -7,7 +7,9 @@
     var string3 = "!";
     mystring = string1 + string2 + string3;
     console.log(mystring);
-
+ // correction
+    var salutation = "Bonjour, monde !";
+    console.log(salutation);
 
 Créez une fonction qui prend deux nombres en entrée et les additionne. Appelez cette fonction et affichez le résultat dans la console.
 // ma reponse
@@ -17,8 +19,20 @@ Créez une fonction qui prend deux nombres en entrée et les additionne. Appelez
         console.log (resultat)
     }
 
-    
+
 Écrivez un programme JavaScript qui vérifie si un nombre est pair ou impair et affiche le résultat dans la console.
+
+//ma reponse
+
+    function isEven(number) {
+        if (number % 2 === 0) {
+            answer= "It is even";
+        } 
+        else (number % 2 === 1) {
+            answer = "It is odd";
+        }
+        console.log(answer);
+    }
 
 Créez un tableau contenant trois noms, puis bouclez sur le tableau pour afficher chaque nom dans la console.
 
