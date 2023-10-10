@@ -6,21 +6,39 @@ Exercices
     function add (a,b){
      let resultat = a+b;
         return resultat;
+        //exemple: add(1,2)
+    }
+//correction: 
+
+    function add(a,b){
+        return = a+b;
     }
 
 Créez une fonction multiply qui prend deux paramètres (x et y) et renvoie leur produit par additions successives.
 
-    function multiply (a,b){
-        let produit = (a*b);
+    function multiply (x,y){
+        let compteur = 0
+        let produit = (x*y);
         return
     }
-Écrivez une fonction isEven qui prend un nombre en paramètre et renvoie true s'il est pair et false s'il est impair.
+
+    //correction:
+
+    function multiply(x,y){
+        let resullt= 0;
+        let count = 0;
+        while (count <= y){
+            result += x;  //result = result +x
+            count++;  //count = count +1
+        }
+        return result;
+    }
+Écrivez une fonction isEven qui prend un nombre en paramètre et renvoie true s'il est pair et false s'il est impair
+.
+//pair: divise par 2, reste 0. modulo= %
 
     function isEven (number){
-        let remainder (var%2);
-        if remainder = 0;
-        return answer = true;
-        else
+        return number%2===0;
     }
     
 Écrivez une fonction reverseString qui prend une chaîne de caractères en entrée et renvoie cette chaîne inversée.
