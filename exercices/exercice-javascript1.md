@@ -12,45 +12,52 @@ Créez une fonction calculateFactorial qui prend un nombre entier positif en par
 Écrivez une fonction findLongestWord qui prend un tableau de mots en entrée et renvoie le mot le plus long.
 Écrivez une fonction isPalindrome qui prend une chaîne de caractères en entrée et renvoie true si la chaîne est un palindrome (se lit de la même manière de gauche à droite et de droite à gauche), sinon renvoie false.
 Questions à choix multiples (QCM)
+
 Quelle est la sortie de console.log(typeof "123") ?
 
-a) "string"
+a) "string" ("bonne réponse")
 b) "number"
 c) "undefined"
 d) "boolean"
+
 Quelle méthode JavaScript est utilisée pour supprimer le dernier élément d'un tableau ?
 
-a) pop()
+a) pop() ("bonne réponse")
 b) shift()
 c) splice()
 d) push()
+
 Quel opérateur est utilisé pour vérifier l'égalité stricte, c'est-à-dire que les valeurs et les types doivent correspondre ?
 
 a) ==
-b) ===
+b) === ("bonne réponse")
 c) !=
 d) !==
+
 Comment déclarez-vous une variable en JavaScript ?
 
 a) variable x;
 b) let x;
-c) var x;
+c) var x; ("bonne réponse")
 d) const x;
+
 Quelle boucle JavaScript est principalement utilisée pour parcourir les éléments d'un tableau ?
 
-a) while
+a) while ("bonne réponse")
 b) for
 c) do...while
 d) forEach
+
 Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
 
 a) pop()
 b) shift()
-c) push()
+c) push() ("bonne réponse")
 d) unshift()
+
 Quel opérateur est utilisé pour vérifier si une valeur est supérieure à une autre en JavaScript ?
 
-a) >
+a) > ("bonne réponse")
 b) <
 c) ==
 d) ===
