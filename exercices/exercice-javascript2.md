@@ -1,10 +1,12 @@
 Écrivez un programme JavaScript qui affiche "Bonjour, monde !" dans la console.
 
-var string1 = "Bonjour," 
-var string2 = " monde "
-var string3 = "!";
-mystring = string1 + string2 + string3;
-console.log(mystring);
+//ma reponse
+
+    var string1 = "Bonjour," 
+    var string2 = " monde "
+    var string3 = "!";
+    mystring = string1 + string2 + string3;
+    console.log(mystring);
 
 
 Créez une fonction qui prend deux nombres en entrée et les additionne. Appelez cette fonction et affichez le résultat dans la console.
