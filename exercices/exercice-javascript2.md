@@ -37,7 +37,15 @@ Créez une fonction qui prend deux nombres en entrée et les additionne. Appelez
     function isEven(number) { 
         return number % 2 === 0; 
     }
-
+//correction sayah
+    function estPairouImpair(nombre){
+        if (nombre % 2=== 0) {
+            return "pair";
+        }
+        else {
+            return "impair";
+        }
+    }
 
 Créez un tableau contenant trois noms, puis bouclez sur le tableau pour afficher chaque nom dans la console.
 
@@ -48,6 +56,7 @@ Créez un tableau contenant trois noms, puis bouclez sur le tableau pour affiche
             console.log(array[i]);
     }
 /*i represente le numero de l'emplacement du string du tableau, changer le i il faut determiner sa valeur, lui donner une limite de changement et le faire augmenter*/
+
 
 
 Écrivez un programme JavaScript qui demande à l'utilisateur son prénom, puis affiche "Bonjour, [prénom] !" dans une boîte de dialogue.
@@ -74,6 +83,10 @@ Créez un tableau contenant trois noms, puis bouclez sur le tableau pour affiche
         var prenom = "John"; 
         // Remplacez "John" par le prénom que vous souhaitez afficher
         alert("Bonjour " + prenom + " !");
+
+//corerction sayah
+    let prenom = prompt("Entrez votre prenom")
+    alert(`Bonjour, ${prenom} !`);
 
 Créez une fonction qui calcule l'aire d'un rectangle en prenant sa largeur et sa hauteur en entrée. Affichez le résultat dans la console.
 
