@@ -108,24 +108,43 @@ Créez une fonction qui calcule l'aire d'un rectangle en prenant sa largeur et s
 
 Écrivez un programme JavaScript qui génère un nombre aléatoire entre 1 et 10, puis demande à l'utilisateur de deviner ce nombre. Donnez des indices pour aider l'utilisateur à deviner.
 
+
+
+    let num = prompt("Entrez un nombre", number)
+    function num(number) {
+        let numAleatoire = Math.floor(Math.random(number)*10);
+        if (num < numAleatoire ) {
+            return "le nombre est plus petit.";
+        } 
+        else if (num > numAleatoire) {
+            return "le numéro est plus grand.";
+        }
+        else (num === numAleatoire) {
+            return "C'est exact, " + numAleatoire + " = " num + ".";
+        }
+    console.log(num, numAleatoire)
+    }
+
 //correction sayah
     //nombre entre 1 et 10, nombre entier
     //math.random() et math.floor() *10 pour avoir entre0 et 10
     //math floor de math random eest 0, ar entier plus petit entre 0 et 1 est 0
 
-    function num(number) {
-        let numAleatoire = Math.floor(Math.random(number)*10);
-        if (numAleatoire < 5 ) {
-            return "le nombre est plus petit.";
-        } 
-        else if (numAleatoire > 5) {
-            return "le numéro est plus grand.";
-        }
-        else (numAleatoire === num) {
-            return "C'est exact, " + numAleatoire + " = " num + ".";
-        }
-    console.log()
+<!-- +1 par ce que le math random choisira entre 0 et 10 et nous on veut 1 et 10; -->
+    var randomNumber = Math.floor(Math.random()*10)+1;
+    var guess;
+
+    do{
+        guess= prompt("Devinez le nombre(entre 1 et 10) que j'ai choisi !");
+            if (guess < randomNumber){
+            alert("Trop petit !")}
+            else if (guess > randomNumber){
+            alert("Trop grand !")}
+            else {
+            (alert("Bravo ! Vous avez trouvé la solution !")) }
     }
+    while(guess !== randomNumber)
+    
 
 
 Créez une fonction qui prend une chaîne de caractères en entrée et retourne sa longueur. Affichez la longueur d'une chaîne donnée dans la console.
