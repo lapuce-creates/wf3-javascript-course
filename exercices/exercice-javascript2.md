@@ -159,6 +159,8 @@ Créez une fonction qui prend une chaîne de caractères en entrée et retourne 
         console.log(string.length);
     }
 
+
+
 Écrivez un programme JavaScript qui calcule la somme des nombres de 1 à 100 et affiche le résultat dans la console.
 
 //ma reponse
