@@ -174,4 +174,38 @@ Créez une fonction qui prend une chaîne de caractères en entrée et retourne 
           console.log(i);
         }
     }
+
+//correction
+//nombres de 1 a 100
+//somme de 1+ 2 + 3 +...+100 --> 0=0+1
+//resultat final
+
+
+function sommeNombre(){
+    let nombre =0;
+    for(let i=0; i<=100; i++){
+        nombre += i;
+    }
+    return nombre;
+}
+sommeNombre();
+
+
+
 Créez un tableau de nombres, puis utilisez une boucle pour trouver le plus grand nombre dans le tableau. Affichez ce nombre dans la console.
+
+//creer un tableau de nombres
+//utilier boucle pour aprcourir tableau
+//trouver le plus grand
+//comparer chaque element du tableau
+
+//correction
+    var array = [45, 15, 23, 17];
+    var plusGrand = array[0];
+
+    for (let i=1; i<array.length; i++){
+        if (array[i]> plusGrand){
+            plusGrand = array[i];
+        }
+        console.log(plusGrand);
+    }
