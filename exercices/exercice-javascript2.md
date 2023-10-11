@@ -38,6 +38,7 @@ Créez une fonction qui prend deux nombres en entrée et les additionne. Appelez
         return number % 2 === 0; 
     }
 //correction sayah
+
     function estPairouImpair(nombre){
         if (nombre % 2=== 0) {
             return "pair";
@@ -85,6 +86,7 @@ Créez un tableau contenant trois noms, puis bouclez sur le tableau pour affiche
         alert("Bonjour " + prenom + " !");
 
 //corerction sayah
+
     let prenom = prompt("Entrez votre prenom")
     alert(`Bonjour, ${prenom} !`);
 
@@ -99,9 +101,31 @@ Créez une fonction qui calcule l'aire d'un rectangle en prenant sa largeur et s
     }
         multiply(10,5);
 
+//correction sayah
+
+    console.log("l'aire de votre rectangle est " + longueur*largeur + " metres carres.");
+
 
 Écrivez un programme JavaScript qui génère un nombre aléatoire entre 1 et 10, puis demande à l'utilisateur de deviner ce nombre. Donnez des indices pour aider l'utilisateur à deviner.
 
+//correction sayah
+    //nombre entre 1 et 10, nombre entier
+    //math.random() et math.floor() *10 pour avoir entre0 et 10
+    //math floor de math random eest 0, ar entier plus petit entre 0 et 1 est 0
+
+    function num(number) {
+        let numAleatoire = Math.floor(Math.random(number)*10);
+        if (numAleatoire < 5 ) {
+            return "le nombre est plus petit.";
+        } 
+        else if (numAleatoire > 5) {
+            return "le numéro est plus grand.";
+        }
+        else (numAleatoire === num) {
+            return "C'est exact, " + numAleatoire + " = " num + ".";
+        }
+    console.log()
+    }
 
 
 Créez une fonction qui prend une chaîne de caractères en entrée et retourne sa longueur. Affichez la longueur d'une chaîne donnée dans la console.
