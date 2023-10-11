@@ -13,6 +13,9 @@
     var salutation = "Bonjour, monde !";
     console.log(salutation);
 
+    //correction sayah
+    console.log("Bonjour, monde !";)
+
 Créez une fonction qui prend deux nombres en entrée et les additionne. Appelez cette fonction et affichez le résultat dans la console.
 // ma reponse
 
@@ -21,6 +24,11 @@ Créez une fonction qui prend deux nombres en entrée et les additionne. Appelez
         console.log (resultat)
     }
 
+//corrction sayah
+
+    function add(number1, number2){
+        return number1 + number2;
+    }
 
 Écrivez un programme JavaScript qui vérifie si un nombre est pair ou impair et affiche le résultat dans la console.
 
@@ -33,12 +41,12 @@ Créez une fonction qui prend deux nombres en entrée et les additionne. Appelez
 
 Créez un tableau contenant trois noms, puis bouclez sur le tableau pour afficher chaque nom dans la console.
 
-//ma reponse
+    //ma reponse
 
-    var array = ["Leah", "Sarah", "Slerah"];
-for ( var i = 0; i < array.length; i++) {
-    console.log(array[i]);
-}
+        var array = ["Leah", "Sarah", "Slerah"];
+            for ( var i = 0; i < array.length; i++) {
+            console.log(array[i]);
+    }
 /*i represente le numero de l'emplacement du string du tableau, changer le i il faut determiner sa valeur, lui donner une limite de changement et le faire augmenter*/
 
 
@@ -50,22 +58,22 @@ for ( var i = 0; i < array.length; i++) {
 //afficher Bonjour (prenom)
 //alert boite de dialogue
 
-var demande = "Entrez votre prénom";
+    var demande = "Entrez votre prénom";
  <!-- phrase1 + phrase2 = phrase3 -->
 
 
- function test(param1, param2, param3) {
- console.log(param1, param2, param3);
- result = (param1 + param2 + param3);
- }
+    function test(param1, param2, param3) {
+        console.log(param1, param2, param3);
+        result = (param1 + param2 + param3);
+    }
 
- test("Bonjour, ", "prénom", " !");
+    test("Bonjour, ", "prénom", " !");
 
 //correction
 
-var prenom = "John"; 
-    // Remplacez "John" par le prénom que vous souhaitez afficher
-alert("Bonjour " + prenom + " !");
+        var prenom = "John"; 
+        // Remplacez "John" par le prénom que vous souhaitez afficher
+        alert("Bonjour " + prenom + " !");
 
 Créez une fonction qui calcule l'aire d'un rectangle en prenant sa largeur et sa hauteur en entrée. Affichez le résultat dans la console.
 
@@ -73,16 +81,39 @@ Créez une fonction qui calcule l'aire d'un rectangle en prenant sa largeur et s
 // aire d'un rectangle c'est longueur * largeur
 //var longueur , var largeur, multiplier les 2var
 
-function multiply(longueur,largeur){
-    return longueur * largeur;
-}
-multiply(10,5);
+    function multiply(longueur,largeur){
+        return longueur * largeur;
+    }
+        multiply(10,5);
 
 
 Écrivez un programme JavaScript qui génère un nombre aléatoire entre 1 et 10, puis demande à l'utilisateur de deviner ce nombre. Donnez des indices pour aider l'utilisateur à deviner.
 
+
+
 Créez une fonction qui prend une chaîne de caractères en entrée et retourne sa longueur. Affichez la longueur d'une chaîne donnée dans la console.
+
+// ma reponse
+//creer fonction
+// determiner chaine de caracteres
+//retourner length
+//afficher longueur chaine console
+
+    function myString(string){
+        console.log(string.length);
+    }
 
 Écrivez un programme JavaScript qui calcule la somme des nombres de 1 à 100 et affiche le résultat dans la console.
 
+//ma reponse
+//calcul de somme
+//nombres des 1 a 100
+//1+2+3+4+...+100 --> x<100 --> x = x+1
+//resultat console --> resultat somme --> x+
+
+    function add(i){
+        for(i = 0; i < 100; i++);{ 
+          console.log(i);
+        }
+    }
 Créez un tableau de nombres, puis utilisez une boucle pour trouver le plus grand nombre dans le tableau. Affichez ce nombre dans la console.
